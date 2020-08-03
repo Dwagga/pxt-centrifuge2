@@ -7,7 +7,7 @@
  * @param value angle or rotation speed
  */
 //% help=pins/servo-write weight=41 group="Servo"
-//% blockId=device_set_servo_pin block="servo write|pin %name|to %value=protractorPicker" blockGap=8
+//% blockId=device_set_servo_pin block="servo hello hello write|pin %name|to %value=protractorPicker" blockGap=8
 //% parts=microservo trackArgs=0
 //% blockNamespace=pins
 //% name.fieldEditor="gridpicker"
