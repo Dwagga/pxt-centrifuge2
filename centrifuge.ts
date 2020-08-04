@@ -177,20 +177,6 @@ namespace makerController {
         }
 
         /**
-         * Sets the threshold values for the analog dpad detector
-         */
-        //% blockId=makercontrolleranalogsetthreshold block="set %this analog %direction threshold from %low to %high"
-        //% low.defl=-1023
-        //% high.defl=1023
-        setAnalogThreshold(direction: ArcadeAnalogButton, low: number, high: number) {
-            const ld = this.resolveDetector(direction);
-            if (ld) {
-                ld.setLowThreshold(low);
-                ld.setHighThreshold(high);
-            }
-        }
-
-        /**
          * Reset the state of all controller buttons
          */
         //% blockId=makercontrollerreset block="reset %this buttons"
