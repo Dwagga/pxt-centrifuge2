@@ -3,23 +3,17 @@
     "version": "0.0.0",
     "description": "",
     "dependencies": {
-        "adafruit-metro-m0-express": "*"
+         "core": "*",
+        "keyboard": "*"
     },
     "files": [
         "README.md",
-        "main.blocks",
-        "main.ts"
+        "main.ts",
+        "centrifuge.ts"
     ],
     "testFiles": [
         "test.ts"
     ],
-    "public": true,
-    "targetVersions": {
-        "target": "0.13.48",
-        "targetId": "maker"
-    },
-    "supportedTargets": [
-        "maker"
-    ],
-    "preferredEditor": "blocksprj"
+    "public": false"
+    "preferredEditor": "tsprj"
 }
