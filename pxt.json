@@ -14,6 +14,13 @@
     "testFiles": [
         "test.ts"
     ],
-    "public": false"
-    "preferredEditor": "tsprj"
+    "public": true,
+    "targetVersions": {
+        "target": "0.13.48",
+        "targetId": "maker"
+    },
+    "supportedTargets": [
+        "maker"
+    ],
+    "preferredEditor": "blocksprj"
 }
