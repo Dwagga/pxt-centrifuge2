@@ -20,11 +20,13 @@ namespace centrifuge {
     
     }
     
-    //% block="set %servo angle to %degrees=protractorPicker °"
-    export function centrifuge (degrees: number) {
-            degrees = this.clampDegrees(degrees);
-            this.internalSetContinuous(false);
-            this._angle = this.internalSetAngle(degrees);
+    //% block="servo DWAGGA write|pin %name|to %value=protractorPicker" blockGap=8
+    //% power.defl=100
+    //% name.fieldEditor="gridpicker"
+    //% name.fieldOptions.width=220
+    //% name.fieldOptions.columns=4
+    export function centrifuge (PwmOnlyPin: name, power: number) {
+            PINOP(setServoValue(power));
         }
 }
     
