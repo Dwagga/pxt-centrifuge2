@@ -1,5 +1,8 @@
 #include "pxt.h"
 
+namespace PwmPinMethods {
+}
+
 namespace PwmOnlyPinMethods {
 
   /**
@@ -10,10 +13,10 @@ namespace PwmOnlyPinMethods {
    * @param name pin to write to
    * @param value angle or rotation speed
    */
-  //% help=pins/servo-write weight=41 group="Servo"
-  //% blockId=device_set_servo_pin block="servo DWAGGA write|pin %name|to %value=protractorPicker" blockGap=8
-  //% parts=microservo trackArgs=0
-  //% blockNamespace=pins
+  //% help=pins/servo-write weight=41
+  //% blockId=dwagga 
+  //% block="servo DWAGGA write|pin %name|to %value=protractorPicker" blockGap=8
+  //% blockNamespace=centrifuge
   //% name.fieldEditor="gridpicker"
   //% name.fieldOptions.width=220
   //% name.fieldOptions.columns=4
