@@ -8,7 +8,8 @@
     "files": [
         "README.md",
         "main.ts",
-        "centrifuge.ts"
+        "centrifuge.ts",
+        "pins.cpp"
     ],
     "testFiles": [
         "test.ts"
