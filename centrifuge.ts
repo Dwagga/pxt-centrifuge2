@@ -17,10 +17,15 @@ namespace centrifuge {
 
     //% block
     export function funtion2() {
-
+    
     }
     
-   
+    //% block="set %servo angle to %degrees=protractorPicker °"
+    export function centrifuge (degrees: number) {
+            degrees = this.clampDegrees(degrees);
+            this.internalSetContinuous(false);
+            this._angle = this.internalSetAngle(degrees);
+        }
 }
     
     /**
