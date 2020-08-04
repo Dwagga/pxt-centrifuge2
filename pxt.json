@@ -9,8 +9,7 @@
         "README.md",
         "main.ts",
         "centrifuge.ts",
-        "pins.cpp",
-        "shims.d.ts"
+        "pins.cpp"
     ],
     "testFiles": [
         "test.ts"
