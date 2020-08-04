@@ -1,16 +1,22 @@
-namespace pxsim.prueba {
-    /**
-     * ooooooooooooooooooooooooooooo Prueba oooooooooooooooooooooooooooooo
-     */
-    //% blockId="samplePrueba" block="Prueba %hop on color %color=colorNumberPicker"
-    //% hop.fieldEditor="gridpicker"
-    export function hop(hop: Hop, color: number) {
+/**
+ * Functions are mapped to blocks using various macros
+ * in comments starting with %. The most important macro
+ * is "block", and it specifies that a block should be
+ * generated for an **exported** function.
+ */
+
+//% color="#AA278D" weight=100
+namespace centrifuge {
+    //% block
+    export function helloWorld() {
 
     }
 
-    //% blockId=sampleOnLandPrueba block="on land"
-    //% optionalVariableArgs
-    export function onLand(handler: (height: number, more: number, most: number) => void) {
+    // note that Caml casing yields lower case
+    // block text with spaces
+
+    //% block
+    export function funtion2() {
 
     }
 }
