@@ -3,7 +3,7 @@
     "version": "0.0.0",
     "description": "",
     "dependencies": {
-         "core": "*",
+        
     },
     "files": [
         "README.md",
@@ -13,7 +13,7 @@
     "testFiles": [
         "test.ts"
     ],
-    "public": false,
+    "public": true,
     "targetVersions": {
         "target": "0.13.48",
         "targetId": "maker"
