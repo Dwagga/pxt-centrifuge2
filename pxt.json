@@ -13,7 +13,7 @@
     "testFiles": [
         "test.ts"
     ],
-    "public": true,
+    "public": false,
     "targetVersions": {
         "target": "0.13.48",
         "targetId": "maker"
