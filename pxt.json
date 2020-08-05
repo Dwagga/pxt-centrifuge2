@@ -10,7 +10,7 @@
         "main.ts",
         "centrifuge.ts",
         "pinsPWM.cpp",
-        "ZPins.cpp",
+        "ZPin.cpp",
         "pins.cpp",
         "shims.d.ts"
     ],
