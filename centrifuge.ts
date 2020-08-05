@@ -20,15 +20,6 @@ namespace centrifuge {
     
     }
     
-    //% block="servo DWAGGA write|pin %name|to %value=protractorPicker" blockGap=8
-    //% power.defl=100
-    //% name.fieldEditor="gridpicker"
-    //% name.fieldOptions.width=220
-    //% name.fieldOptions.columns=4
-    export function centrifuge (PwmOnlyPin: name, power: number) {
-            PINOP(setServoValue(power));
-        }
-}
     
     /**
  * Control micro servos
