@@ -12,6 +12,7 @@
         "pinsPWM.cpp",
         "ZPin.cpp",
         "pins.cpp",
+        "enums.d.ts",
         "shims.d.ts"
     ],
     "testFiles": [
