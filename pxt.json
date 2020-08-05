@@ -9,6 +9,8 @@
         "README.md",
         "main.ts",
         "centrifuge.ts",
+        "pinsPWM.cpp",
+        "ZPins.cpp",
         "pins.cpp",
         "shims.d.ts"
     ],
