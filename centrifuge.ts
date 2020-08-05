@@ -19,7 +19,7 @@ namespace centrifuge {
     export function funtion2() {
     
     }
-    
+}
     
     /**
  * Control micro servos
