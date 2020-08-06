@@ -3,8 +3,6 @@
     "version": "0.0.0",
     "description": "",
     "dependencies": {
-        "core": "*",
-        "Pins": "*"
     },
     "files": [
         "README.md",
