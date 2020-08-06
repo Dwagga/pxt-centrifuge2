@@ -8,12 +8,7 @@
     "files": [
         "README.md",
         "main.ts",
-        "centrifuge.ts",
-        "pinsPWM.cpp",
-        "ZPin.cpp",
-        "pins.cpp",
-        "enums.d.ts",
-        "shims.d.ts"
+        "centrifuge.ts"
     ],
     "testFiles": [
         "test.ts"
