@@ -21,7 +21,7 @@ namespace centrifuge {
     //% name.fieldOptions.tooltips="false" name.fieldOptions.width="250"
     //% weight=100 color=#0fbc11
     export function servo(name:number ,value: number): void {
-        pins.servoWrite(name, value)
+        pins.servoWritePin(name, value)
     }
 }
     
